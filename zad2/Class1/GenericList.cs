@@ -65,7 +65,7 @@ namespace GenericList
         public X GetElement(int index)
         {
 
-            if (index >= _internalStorage.Length)
+            if (index <= brojac && index >= 0)  ///
             {
                 return _internalStorage[index];
             }
@@ -78,7 +78,7 @@ namespace GenericList
 
         public int IndexOf(X item)
         {
-            for (int i = 0; i < _internalStorage.Length; i++)
+            for (int i = 0; i < brojac; i++)
             {
                 if (_internalStorage[i].Equals(item)) return i;
             }

@@ -79,7 +79,7 @@ namespace GenericList
 
         public int IndexOf(X item)
         {
-            for (int i = 0; i < _internalStorage.Length; i++)
+            for (int i = 0; i < brojac; i++)
             {
                 if (_internalStorage[i].Equals(item)) return i;
             }

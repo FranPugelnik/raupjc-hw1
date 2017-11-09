@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerList", "Class1\IntegerList.csproj", "{70498FFB-33A7-4989-8C09-D00A39A2A8AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9C605C70-D931-4F9A-9CC5-A76C7D92F27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerListTests", "IntegerListTests\IntegerListTests.csproj", "{95121015-6AC7-4919-B0BA-1E039B394AC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9C605C70-D931-4F9A-9CC5-A76C7D92F27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C605C70-D931-4F9A-9CC5-A76C7D92F27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C605C70-D931-4F9A-9CC5-A76C7D92F27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95121015-6AC7-4919-B0BA-1E039B394AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95121015-6AC7-4919-B0BA-1E039B394AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95121015-6AC7-4919-B0BA-1E039B394AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95121015-6AC7-4919-B0BA-1E039B394AC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

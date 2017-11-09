@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList", "Class1\GenericList.csproj", "{9F73DA77-03E6-42AF-BD91-7047265CEAB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{EB40B521-DB4D-4844-B206-68C41F655020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericListTests", "GenericListTests\GenericListTests.csproj", "{B8C63D5E-280C-47EB-9C36-BAF7BF315F98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EB40B521-DB4D-4844-B206-68C41F655020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB40B521-DB4D-4844-B206-68C41F655020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB40B521-DB4D-4844-B206-68C41F655020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C63D5E-280C-47EB-9C36-BAF7BF315F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C63D5E-280C-47EB-9C36-BAF7BF315F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C63D5E-280C-47EB-9C36-BAF7BF315F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C63D5E-280C-47EB-9C36-BAF7BF315F98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
